@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.CalcContainer {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.CalcDisplay {
+  border: 1px solid black;
+  height: 50px;
+  font-size: 2em;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: right;
+  background: rgb(78, 76, 76);
+  color: white;
+}
+
+.ButtonContainer {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.CalcButton {
+  border: 1px solid black;
+  font-size: 1.5em;
+  background-color: lightpink;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.CalcButton:hover {
+  background-color: #ddd;
+}
