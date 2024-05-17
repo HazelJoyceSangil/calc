@@ -134,10 +134,6 @@ export default function App() {
 
   return (
     <div className="App">
-      <div className="Header">
-        <h1>HAZEL JOYCE Y. SANGIL</h1>
-        <h2>BSCPE-2A</h2>
-      </div>
       <div className="CalcContainer">
         <CalcDisplay display={disp} />
         <div className="ButtonContainer">
